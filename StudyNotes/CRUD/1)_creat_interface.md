@@ -20,8 +20,8 @@ You can name it as you like,
 For the sack of this artcle, and the project it's built upon.
 
 The Object name is ```"users"```, this object is a "key", we most likely now or in the future have mutiple users. 
-
 So the best why to manage this is by creating a table and each key represents the header while each value represents the data.
+
 We can accomplish this by adding a array of objects as the "value".
 Each object within this array will store is own data and simplier words the users data. 
 
