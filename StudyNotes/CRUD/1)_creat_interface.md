@@ -8,32 +8,37 @@ Let's get started.
 
 > ./backend/db.json
 
-* In the current project folder, create a backend directory
+In the current project folder, create a backend directory, this is where we'll store our server data witch is our db.json.
 
-This is where we'll store our server data.
+So technically we use json syntax when dealing with server side.
+Json works by using ```"key": "value"``` pairs, same as ```"name": "Tech Savvy"```.
 
-* Now Create a db.json
+Inside our db file, we create a block ```{ }```, within this block is a object.
+A simple question such as "What data am I collecting" and "from who am I collecting it from" is really half the battle.
 
-Ok, so technically use json syntax when dealing with the server.
-Json works by using "key": "value" pairs, witch is the same as "name": "Tech Savvy".
+You can name it as you like,
+For the sack of this artcle, and the project it's built upon.
 
-Inside db file, start off by inserting curly braces ```{}```, the first object within this block is ```user```, this user "key" object creates a table with its array of objects "value".
-Now insert each "key": "value" pairs within this array object is.
-Each "key": "value" pair is the data you'll be collecting.
+The Object name is ```users```, this object is a "key", we most likely now or in the future have mutiple users. 
 
+So the best why to manage this is by creating a table and we can accomplish this by adding a array of objects as the "value".
+
+Now, here is where we insert each "key": "value" pair of data we'll be collecting
+from the object.
+
+> Remember Json only uses "key": "Value" pairs
 ```ruby
 {
     "user": [
         {
             "id": 1,
             "name": "Tech Savvy",
-            "Status": ["Hello World"]
+            "Status": ["I wonder is this data being collected"]
         }
     ]
 }
 
 ```
-
 
 # Creating A Interface
 
