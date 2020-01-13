@@ -10,7 +10,8 @@ Although TypeScript has
 
 #### Static Typing
 
-Here are the Types we use in TypeScript.
+Here are the Types we use in TypeScript:
+
 
 | TypeScript Types | Description |
 | --- | ---|
@@ -19,7 +20,20 @@ Here are the Types we use in TypeScript.
 | `Boolean` | True or False values
 | `Array` | special type of data type which can store multiple values of different data types|
 
-By default JavaScript is a untyped language meaning we dont have to specify varible or function types as in TypeScript Types.
+
+On a more advance or not so common level we have: 
+
+| TypeScript Types | Description |
+| --- | ---|
+| `Any` | Can be any of TypeScript Types |
+| `Void` | No TypeScript Types returned |
+| `Null` | Nothing or Undefined |
+| `Tuple` | A array with a fixed number of elements |
+| `enum` | Emumerated values  |
+| `Generics` | Little advance best described is best for reusable code|
+
+
+By default JavaScript is a untyped language meaning we dont have to specify varibles or function types as in TypeScript Types.
 
 * It is completely optional
 
