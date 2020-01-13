@@ -1,3 +1,1 @@
-# StudyNotes
-
-CRUD Operation
+# TypeScript World
