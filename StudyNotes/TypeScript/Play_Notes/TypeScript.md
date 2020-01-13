@@ -14,7 +14,7 @@ Here are the Types we use in TypeScript:
 
 
 | TypeScript Types | Description |
-| --- | ---|
+| ---------------- | ----------- |
 | `String` | A string can be any text inside double or single quotes |
 | `Number` | The original examples are the natural numbers 1, 2, 3, 4, and so forth |
 | `Boolean` | True or False values
@@ -50,6 +50,17 @@ Although if you do assign a TypeScript Types to a varible, lets say ```example: 
 ##### Class Based Objects
 
 If you had any expriance with PHP, Python or Java, you've probably worked with classes in Object oriented programing before.
+
+Classes are a huge advantage in TypeScript, they gives us the abilty to use:
+
+* Object Oriented programming in our JS applications, we can define
+    - classes
+    - Properties
+    - Methods
+    
+* No more JS ProtoTypes based objects
+
+
 
 In standard JavaScript ES5 you has the solution to use prototypes, with is kinda confusing and annoying, Yet in ES6 we can use classes and typescript is fully compatable with ES6 as well.
 
