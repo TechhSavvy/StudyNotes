@@ -24,7 +24,7 @@ Here are the Types we use in TypeScript:
 On a more advance or not so common level we have: 
 
 | TypeScript Types | Description |
-| --- | ---|
+| ---------------- | ------------|
 | `Any` | Can be any of TypeScript Types |
 | `Void` | No TypeScript Types returned |
 | `Null` | Nothing or Undefined |
