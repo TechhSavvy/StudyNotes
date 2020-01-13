@@ -10,7 +10,7 @@ Although TypeScript has
 
 #### Static Typing
 
-Here are the Types we can use in TypeScript.
+Here are the Types we use in TypeScript.
 
 | TypeScript Types | Description |
 | --- | ---|
@@ -18,7 +18,6 @@ Here are the Types we can use in TypeScript.
 | `Number` | The original examples are the natural numbers 1, 2, 3, 4, and so forth |
 | `Boolean` | True or False values
 | `Array` | special type of data type which can store multiple values of different data types|
-
 
 By default JavaScript is a untyped language meaning we dont have to specify varible or function types as in TypeScript Types.
 

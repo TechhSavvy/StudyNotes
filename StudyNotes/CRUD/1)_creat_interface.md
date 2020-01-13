@@ -25,22 +25,37 @@ So the best why to manage this is by creating a table and each key represents th
 We can accomplish this by adding a array of objects as the "value".
 Each object within this array will store is own data and simplier words the users data. 
 
-Now, here is where we insert each "key": "value" pair of data we'll be collecting
-from the object.
+Now, here is where we insert each "key": "value" pair of data we'll collect from the object.
 
 > Remember Json only uses "key": "Value" pairs
 ```ruby
 {
-    "user": [
+    "users": [
         {
             "id": 1,
             "name": "Tech Savvy",
-            "Status": ["I wonder is this data being collected"]
+            "email": "tooensure@gmail.com",
+            "Status": [
+                {
+                    "id": 1,
+                    "status": "Hello World"
+                }
+            ]
         }
     ]
 }
-
 ```
+
+# Generate Components
+
+> src/app/users-list
+
+> src/app/users-edit
+
+> src/app/users-register
+
+
+
 
 # Creating A Interface
 
