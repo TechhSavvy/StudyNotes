@@ -99,6 +99,6 @@ You can install tsc with npm, Just check out my ('this will be a link') article,
 
 ## Let Get Started
 
-| Next | ('https://help.github.com/en/github/writing-on-github/organizing-information-with-tables') |
+| Next | ('https://github.com/TechhSavvy/StudyNotes/blob/master/StudyNotes/Play_Notes/Basics_TypeScript.md') |
 | :---: | :--- |
 
