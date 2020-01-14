@@ -11,6 +11,6 @@ export class AppComponent {
 
 var myString: string;
 
-myString = 1;
+myString = 2;
 
 console.log(myString)
