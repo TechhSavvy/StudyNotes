@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'Playground';
 }
 
-var myString;
+var myString: string;
 
-myString = "Hello World";
+myString = 1;
 
 console.log(myString)
