@@ -13,8 +13,8 @@ let myString: string;
 let myNumber: number;
 let myBoolean: any;
 
-myString = "Hello World";
+myString = "Hello World".slice(0, 3);
 myNumber = 22;
 myBoolean = [true, false, "Tech Savvy", 22];
 
-console.log(myBoolean)
+console.log(myString)
