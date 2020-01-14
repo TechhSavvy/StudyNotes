@@ -11,10 +11,10 @@ export class AppComponent {
 
 let myString: string;
 let myNumber: number;
-let myBoolean: boolean;
+let myBoolean: any;
 
 myString = "Hello World";
 myNumber = 22;
-myBoolean = "true";
+myBoolean = [true, false, "Tech Savvy", 22];
 
 console.log(myBoolean)
