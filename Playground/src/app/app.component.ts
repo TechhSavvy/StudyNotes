@@ -24,6 +24,13 @@ myArr = ["Saterday", "Sunday"];
 numArr = [1,2,3,4]
 
 strNumTuple = ["Tech Savvy", 22, 22, ]
-// strNumTuple = [22, "Tech Savvy"]
 
-console.log(strNumTuple)
+let myVoid: void;
+let myNull: null;
+let myUndefined: undefined;
+
+myVoid = undefined;
+myNull = undefined;
+myUndefined = undefined;
+
+console.log(numArr)
