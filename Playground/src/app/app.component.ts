@@ -13,10 +13,17 @@ let myString: string;
 let myNumber: number;
 let myBoolean: any;
 let myArr: string[];
+let numArr: Array<number>;
+
+let strNumTuple: [string, number, number];
 
 myString = "Hello World".slice(0, 3);
 myNumber = 22;
 myBoolean = [true, false, "Tech Savvy", 22];
-myArr = ["mon", "tue", "wed", "thud", "friday"];
+myArr = ["Saterday", "Sunday"];
+numArr = [1,2,3,4]
 
-console.log(myString)
+strNumTuple = ["Tech Savvy", 22, 22, ]
+// strNumTuple = [22, "Tech Savvy"]
+
+console.log(strNumTuple)
