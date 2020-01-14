@@ -9,8 +9,12 @@ export class AppComponent {
   title = 'Playground';
 }
 
-var myString: string;
+let myString: string;
+let myNumber: number;
+let myBoolean: boolean;
 
-myString = 2;
+myString = "Hello World";
+myNumber = 22;
+myBoolean = true;
 
-console.log(myString)
+console.log(myBoolean)
