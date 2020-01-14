@@ -15,6 +15,6 @@ let myBoolean: boolean;
 
 myString = "Hello World";
 myNumber = 22;
-myBoolean = true;
+myBoolean = "true";
 
 console.log(myBoolean)
