@@ -10,4 +10,7 @@ export class User {
 
         console.log(`User Created: ${this.name}`)
     }   
+    register() {
+        console.log(`${this.name} is now registered`)
+    }
 }

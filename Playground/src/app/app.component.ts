@@ -23,6 +23,27 @@ export class User {
 
       console.log(`User Created: ${this.name}`)
   }   
+  register() {
+    console.log(`${this.name} is now registered`)
+  }
+
+  payInvoice() {
+    console.log(`${this.name} has paid invoce`)
+  }
 }
 
-let admin = new User("Tech Savvy", "tooensure@gmail.com", 22);
+class Memeber extends User {
+  id: number;
+
+  constructor(id: number, name: string, email: string, age: number) {
+    super(name, email, age)
+  }
+
+  payInvoice() {
+    super.payInvoice();
+  }
+}
+
+let admin: User = new Memeber(1, "Tech Savvy", "tooensure@gmil.com", 22)
+
+admin.payInvoice();
